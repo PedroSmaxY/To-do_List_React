@@ -3,9 +3,9 @@
 #### You can check the Web Application clicking <a href="https://pedrosmaxy.github.io/To-do_React/" target="_blank">HERE.</a>
 
 ## Features
-* Create and manage tasks;
-* Mark tasks as complete
-* Undo and redo changes
+* Create and manage tasks.
+* Mark tasks as complete.
+* Undo and redo changes.
 * Filter tasks by alphabetical order, completed or incomplete.
 
 ## Screenshoots:
