@@ -1,6 +1,6 @@
 # To-do Application in React
 #### This is a simple React project that shows a to-do web application. It is a simple application that allows users to create and manage tasks. The application uses a variety of React components to create a user-friendly interface.
-#### You can check the Web Application clicking <a href="https://pedrosmaxy.github.io/To-do_React/" target="_blank">HERE.</a>
+#### You can check the Web Application clicking [HERE.](pedrosmaxy.github.io/To-do_React/)
 
 ## Features
 * Create and manage tasks;
