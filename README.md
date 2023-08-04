@@ -24,6 +24,8 @@
 ## Installation and usage
 To install this project, you will need Node.js and npm. 
 
+Clone the repository in a folder using this command: `git clone https://github.com/PedroSmaxY/To-do_React.git`
+
 After installing them, run the following command: `npm install`
 
 This will install the project's dependencies.
