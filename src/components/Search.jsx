@@ -1,5 +1,6 @@
-/* eslint-disable react/prop-types */
-const Search = ({ search, setSearch }) => {
+import PropTypes from "prop-types";
+
+export default function Search({ search, setSearch }) {
   return (
     <div className="search">
       <h2>Search:</h2>
@@ -11,6 +12,9 @@ const Search = ({ search, setSearch }) => {
       />
     </div>
   );
-};
+}
 
-export default Search;
+Search.propTypes = {
+  search: PropTypes.string.isRequired,
+  setSearch: PropTypes.func.isRequired,
+};
