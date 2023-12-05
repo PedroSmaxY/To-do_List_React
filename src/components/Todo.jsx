@@ -1,7 +1,6 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
+import PropTypes from "prop-types";
 
-const Todo = ({ todo, removeTodo, completeTodos }) => {
+export default function Todo({ todo, removeTodo, completeTodos }) {
   return (
     <div key={todo.id}>
       <div
@@ -24,6 +23,15 @@ const Todo = ({ todo, removeTodo, completeTodos }) => {
       </div>
     </div>
   );
-};
+}
 
-export default Todo;
+Todo.propTypes = {
+  todo: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    text: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired,
+    isCompleted: PropTypes.bool.isRequired,
+  }).isRequired,
+  removeTodo: PropTypes.func.isRequired,
+  completeTodos: PropTypes.func.isRequired,
+};
