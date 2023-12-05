@@ -1,8 +1,7 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
 import { useState } from "react";
+import PropTypes from "prop-types";
 
-const TodoForm = ({ addTodo }) => {
+export default function TodoForm({ addTodo }) {
   const [value, setValue] = useState("");
   const [category, setCategory] = useState("");
 
@@ -34,6 +33,8 @@ const TodoForm = ({ addTodo }) => {
       </form>
     </div>
   );
-};
+}
 
-export default TodoForm;
+TodoForm.propTypes = {
+  addTodo: PropTypes.func.isRequired,
+};
