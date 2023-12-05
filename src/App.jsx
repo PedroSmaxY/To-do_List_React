@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/jsx-key */
 import { useState } from "react";
 import "./App.css";
 
@@ -7,9 +5,9 @@ import "./App.css";
 import Todo from "./components/Todo";
 import TodoForm from "./components/TodoForm";
 import Search from "./components/Search";
-import { Filter } from "./components/Filter";
+import Filter from "./components/Filter";
 
-function App() {
+export default function App() {
   const [todos, setTodos] = useState([
     {
       id: 1,
@@ -106,5 +104,3 @@ function App() {
     </>
   );
 }
-
-export default App;
