@@ -1,5 +1,6 @@
-/* eslint-disable react/prop-types */
-export const Filter = ({ filter, setFilter, setSort }) => {
+import PropTypes from "prop-types";
+
+export default function Filter({ filter, setFilter, setSort }) {
   return (
     <div className="filter">
       <h2>Filter:</h2>
@@ -25,4 +26,10 @@ export const Filter = ({ filter, setFilter, setSort }) => {
       </div>
     </div>
   );
+}
+
+Filter.propTypes = {
+  filter: PropTypes.string.isRequired,
+  setFilter: PropTypes.func.isRequired,
+  setSort: PropTypes.func.isRequired,
 };
