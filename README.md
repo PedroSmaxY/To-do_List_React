@@ -5,7 +5,7 @@
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-To-do Application in React is a simple and intuitive web application that allows users to create, manage, and organize tasks. Built using React, this application offers a clean and user-friendly interface to enhance productivity. **You can check the Web Application clicking [HERE](https://pedrosmaxy.github.io/To-do_React/).**
+**To-do Application in React** is a simple and intuitive web application that allows users to create, manage, and organize tasks. Built using React, this application offers a clean and user-friendly interface to enhance productivity. **You can check the Web Application clicking [here](https://pedrosmaxy.github.io/To-do_React/).**
 
 ## Table of Contents
 
